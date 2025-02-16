@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ImageSliderRotateComponent } from '../components/image-slider-rotate/image-slider-rotate.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
+  imports: [ImageSliderRotateComponent],
 })
 export class AppComponent {
   title = 'CSS-Animations';
